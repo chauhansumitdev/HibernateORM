@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.url">postgres://jdbc:KDnI9UiC5AJQy29LaQAz8yMaF1Gbopjz@dpg-cpaeo3sf7o1s73afs4m0-a/jdbc_rsfc</property>
+        <property name="hibernate.connection.username">jdbc</property>
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.connection.password">KDnI9UiC5AJQy29LaQAz8yMaF1Gbopjz</property>
+    </session-factory>
+</hibernate-configuration>
+

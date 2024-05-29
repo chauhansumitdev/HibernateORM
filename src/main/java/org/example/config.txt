@@ -1,0 +1,27 @@
+<!-- JDBC Database connection settings -->
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">postgres://jdbc:KDnI9UiC5AJQy29LaQAz8yMaF1Gbopjz@dpg-cpaeo3sf7o1s73afs4m0-a/jdbc_rsfc</property>
+        <property name="hibernate.connection.username">jdbc</property>
+        <property name="hibernate.connection.password">KDnI9UiC5AJQy29LaQAz8yMaF1Gbopjz</property>
+
+        <!-- JDBC connection pool settings -->
+        <property name="hibernate.c3p0.min_size">5</property>
+        <property name="hibernate.c3p0.max_size">20</property>
+        <property name="hibernate.c3p0.timeout">300</property>
+        <property name="hibernate.c3p0.max_statements">50</property>
+        <property name="hibernate.c3p0.idle_test_period">3000</property>
+
+        <!-- SQL dialect -->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+
+        <!-- Enable Hibernate's automatic session context management -->
+        <property name="hibernate.current_session_context_class">thread</property>
+
+        <!-- Echo all executed SQL to stdout -->
+        <property name="hibernate.show_sql">true</property>
+
+        <!-- Format SQL output -->
+        <property name="hibernate.format_sql">true</property>
+
+        <!-- Names the annotated entity class -->
+        <mapping class="com.example.model.YourEntity"/>
